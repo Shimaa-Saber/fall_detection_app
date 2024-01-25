@@ -1,3 +1,4 @@
+import 'package:fall_detection_app/screens/cargiverprofile/cargiverprofile.dart';
 import 'package:fall_detection_app/widgets/patiantdetailsListView.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -135,7 +136,9 @@ class HomepageViewBody extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       IconButton(
-                        onPressed: () {  },
+                        onPressed: () {
+                          Navigator.pushNamed(context, Cargiverprofile.id);
+                        },
                         icon: Icon(
                           CupertinoIcons.person_solid,
                           color: Colors.black,

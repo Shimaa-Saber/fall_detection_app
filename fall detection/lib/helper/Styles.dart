@@ -23,4 +23,12 @@ abstract class Styles {
     fontWeight: FontWeight.bold,
     height: 0.14,
   );
+
+  static const TextStyle16=TextStyle(
+  color: Color(0xFF171A1F),
+  fontSize: 16,
+  fontFamily: 'Manrope',
+  fontWeight: FontWeight.w400,
+  height: 0.10,
+  );
 }
